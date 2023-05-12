@@ -152,25 +152,25 @@ public function createUser(Request $request)
 }
 
 
-public function addTask()
+public function addTasks()
 
 {
     $allUsers = DB::table('users')
-    ->get();
-    return view('users.add_task', compact('allUsers'));
+        ->get();
+        return view('users.add_task', compact('allUsers'));
 }
 
 public function createTask(Request $request)
 {
-    $myUser = $request->all();
+    DB::table('tasks') -> insert([
 
-    $request->validate(
-        [
-            'email' => 'required|email|unique:users',
-            'name' => 'required|string',
-            'password' => 'required',
-        ]
-    );
+        'users_id' => $request->users_id,
+        'name' => $request->name,
+        'description' =>  $request->description,
+
+    ]);
+
+    return redirect('home_all_users')->with('message', 'Tarefa adicioonado com sucesso');
 
 }
 

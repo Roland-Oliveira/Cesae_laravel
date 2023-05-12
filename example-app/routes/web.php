@@ -78,7 +78,8 @@ Route::get(
 
 Route::get('/home_add_user',   [UserController::class, 'addUser'])->name('add_user');
 Route::post('/create_user',   [UserController::class, 'createUser'])->name('create_user');
-Route::get('/home_add_task', [UserController::class, 'addTask'])->name('add_task');
+Route::get('/home_add_task',   [UserController::class, 'addTasks'])->name('add_task');
+Route::post('/create_tasks',   [UserController::class, 'createTasks'])->name('create_tasks');
 
 
 

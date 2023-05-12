@@ -1,0 +1,7 @@
+Array
+(
+    [_token] => 13HhWF3UPpNZYPO7e2hWjsih9r5pg69zJyl7fdUT
+    [email] => roland.junior.prt_a@msft.cesae.pt
+    [name] => Roland
+    [password] => Oliveira
+)

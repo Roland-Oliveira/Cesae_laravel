@@ -1,0 +1,47 @@
+Illuminate\Support\Collection Object
+(
+    [items:protected] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [id] => 1
+                    [name] => Limpar
+                    [description] => Limpar algo
+                    [due_at] => 
+                    [status] => 0
+                    [created_at] => 
+                    [updated_at] => 
+                    [users_id] => 2
+                    [usname] => Joana
+                )
+
+            [1] => stdClass Object
+                (
+                    [id] => 2
+                    [name] => Comer
+                    [description] => Comer algo
+                    [due_at] => 
+                    [status] => 1
+                    [created_at] => 
+                    [updated_at] => 
+                    [users_id] => 1
+                    [usname] => Roland
+                )
+
+            [2] => stdClass Object
+                (
+                    [id] => 3
+                    [name] => Ajudar
+                    [description] => Me ajudar com o projeto
+                    [due_at] => 
+                    [status] => 1
+                    [created_at] => 
+                    [updated_at] => 
+                    [users_id] => 3
+                    [usname] => Iris
+                )
+
+        )
+
+    [escapeWhenCastingToString:protected] => 
+)

@@ -160,17 +160,19 @@ public function addTasks()
         return view('users.add_task', compact('allUsers'));
 }
 
-public function createTask(Request $request)
-{
+public function createTasks(Request $request)
+{   $myUser = $request->all();
+    file_put_contents("request1.txt", print_r($myUser, true));
     DB::table('tasks') -> insert([
 
-        'users_id' => $request->users_id,
+       'users_id' => $request->users_id,
         'name' => $request->name,
-        'description' =>  $request->description,
+       'description' =>  $request->description,
 
     ]);
 
-    return redirect('home_all_users')->with('message', 'Tarefa adicioonado com sucesso');
+
+    return redirect('home_alltasks')->with('message', 'Tarefa adicioonado com sucesso');
 
 }
 

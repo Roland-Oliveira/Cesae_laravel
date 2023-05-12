@@ -11,7 +11,7 @@
 
     ">
         <h1 class="text-center">Adicionar Tarefa</h1>
-        <form method="POST" action="{{ route('create_user') }}">
+        <form method="POST" action="{{ route('create_tasks') }}">
             @csrf
 
          <div class="mb-3">
@@ -20,14 +20,14 @@
                 <input name="name" type="text" value="" class="form-control" id="exampleInputName1"
                     aria-describedby="nameHelp">
             </div>
-            <div class="mb-3">
+             <div class="mb-3">
                 <label for="descricao" class="form-label text-white">Descrição:</label>
                 <input name="descricao" value="" type="text" class="form-control" id="descricao">
             </div>
 
             <div class="col-3 mb-3">
                 <label for="formGroupExampleInput" class="form-label text-white">Responsavel:</label>
-                <select class="custom-select" name="user_id">
+                <select class="custom-select" name="users_id">
                     <option value="" selected>Todos os contatos</option>
                     @foreach ($allUsers as $item )
                         <option value="{{$item->id}}">

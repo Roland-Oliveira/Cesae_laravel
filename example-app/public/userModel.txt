@@ -30,6 +30,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -43,6 +46,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -142,6 +148,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -155,6 +164,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -254,6 +266,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -267,6 +282,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => [value-4]
                             [email_verified_at] => 0000-00-00 00:00:00
                             [password] => senha123
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => [value-7]
                             [created_at] => 0000-00-00 00:00:00
                             [updated_at] => 0000-00-00 00:00:00
@@ -366,6 +384,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => 
                             [email_verified_at] => 
                             [password] => $2y$10$plyLxCieB31gnRFrnjh9beosKvuftQAtDTmfotET51IJTzfXOrWwm
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
@@ -379,6 +400,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => 
                             [email_verified_at] => 
                             [password] => $2y$10$plyLxCieB31gnRFrnjh9beosKvuftQAtDTmfotET51IJTzfXOrWwm
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
@@ -478,6 +502,9 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => 
                             [email_verified_at] => 
                             [password] => $2y$10$TJQCu4Vwonx9UKdF.T5yS.A1u6npEWU9gZKBtZDTRTIi.8xJd0ZG6
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 
@@ -491,6 +518,127 @@ Illuminate\Database\Eloquent\Collection Object
                             [adress] => 
                             [email_verified_at] => 
                             [password] => $2y$10$TJQCu4Vwonx9UKdF.T5yS.A1u6npEWU9gZKBtZDTRTIi.8xJd0ZG6
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [changes:protected] => Array
+                        (
+                        )
+
+                    [casts:protected] => Array
+                        (
+                            [email_verified_at] => datetime
+                        )
+
+                    [classCastCache:protected] => Array
+                        (
+                        )
+
+                    [attributeCastCache:protected] => Array
+                        (
+                        )
+
+                    [dateFormat:protected] => 
+                    [appends:protected] => Array
+                        (
+                        )
+
+                    [dispatchesEvents:protected] => Array
+                        (
+                        )
+
+                    [observables:protected] => Array
+                        (
+                        )
+
+                    [relations:protected] => Array
+                        (
+                        )
+
+                    [touches:protected] => Array
+                        (
+                        )
+
+                    [timestamps] => 1
+                    [usesUniqueIds] => 
+                    [hidden:protected] => Array
+                        (
+                            [0] => password
+                            [1] => remember_token
+                        )
+
+                    [visible:protected] => Array
+                        (
+                        )
+
+                    [fillable:protected] => Array
+                        (
+                            [0] => name
+                            [1] => email
+                            [2] => password
+                        )
+
+                    [guarded:protected] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [rememberTokenName:protected] => remember_token
+                    [accessToken:protected] => 
+                )
+
+            [5] => App\Models\User Object
+                (
+                    [connection:protected] => mysql
+                    [table:protected] => users
+                    [primaryKey:protected] => id
+                    [keyType:protected] => int
+                    [incrementing] => 1
+                    [with:protected] => Array
+                        (
+                        )
+
+                    [withCount:protected] => Array
+                        (
+                        )
+
+                    [preventsLazyLoading] => 
+                    [perPage:protected] => 15
+                    [exists] => 1
+                    [wasRecentlyCreated] => 
+                    [escapeWhenCastingToString:protected] => 
+                    [attributes:protected] => Array
+                        (
+                            [id] => 13
+                            [name] => adm
+                            [email] => admin@test.com
+                            [adress] => 
+                            [email_verified_at] => 
+                            [password] => $2y$10$Y2ocg2ncvniJ5XeduCPvX.u/7k8UU1jEL2oemOGXZhPf0m2/4uIXS
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
+                            [remember_token] => 
+                            [created_at] => 
+                            [updated_at] => 
+                        )
+
+                    [original:protected] => Array
+                        (
+                            [id] => 13
+                            [name] => adm
+                            [email] => admin@test.com
+                            [adress] => 
+                            [email_verified_at] => 
+                            [password] => $2y$10$Y2ocg2ncvniJ5XeduCPvX.u/7k8UU1jEL2oemOGXZhPf0m2/4uIXS
+                            [two_factor_secret] => 
+                            [two_factor_recovery_codes] => 
+                            [two_factor_confirmed_at] => 
                             [remember_token] => 
                             [created_at] => 
                             [updated_at] => 

@@ -45,8 +45,13 @@
             <button type="submit" class="btn btn-secondary mb-3" >Submit</button>
             <button type="reset" class="btn btn-danger mb-3" >Clear</button>
 
-        </form>
 
+
+
+        </form>
+        @if (session('message2'))
+        <div class="alert alert-light">{{ session('message2') }}</div>
+    @endif
     </div>
 
 @endsection

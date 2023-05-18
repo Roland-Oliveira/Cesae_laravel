@@ -9,3 +9,5 @@ class Note extends Model
 {
     use HasFactory;
 }
+
+

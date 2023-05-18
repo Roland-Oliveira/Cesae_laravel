@@ -4,6 +4,7 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Stmt\Return_;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

@@ -172,7 +172,7 @@ public function createTasks(Request $request)
     ]);
 
 
-    return redirect('home_alltasks')->with('message', 'Tarefa adicioonado com sucesso');
+    return redirect('home_alltasks')->with('message2', 'Tarefa adicioonado com sucesso');
 
 }
 
